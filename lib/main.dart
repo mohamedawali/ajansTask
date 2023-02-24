@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:newtask/view/careDetails.dart';
 import 'package:newtask/view/mainHome.dart';
-
-
 
 void main() {
   runApp(const MyApp());
@@ -28,9 +25,9 @@ class MyApp extends StatelessWidget {
               debugShowCheckedModeBanner: false,
               title: 'Flutter Demo',
               theme: ThemeData(
-                primarySwatch: Colors.blue,
+                //primarySwatch: appbarColor,
               ),
-              home:  const MainHome(),
+              home:  MainHome(),
             ));
   }
 }

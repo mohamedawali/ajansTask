@@ -5,7 +5,7 @@ class CircleItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return   Column(
+    return   Column(mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Container( width: 65.w,
       height: 65.h,
@@ -24,9 +24,9 @@ class CircleItem extends StatelessWidget {
         SizedBox(
           height: 3.h,
         ),
-        const Text("الاسم",
+         Text("جي ام سي",
             style: TextStyle(
-                fontSize: 9, fontWeight: FontWeight.w400)),
+                fontSize: 14.sp, fontWeight: FontWeight.w400)),
       ],
     );
   }
